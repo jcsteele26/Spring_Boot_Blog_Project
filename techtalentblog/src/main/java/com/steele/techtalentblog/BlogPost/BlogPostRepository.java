@@ -1,4 +1,4 @@
-package com.steele.techtalentblog.Blog;
+package com.steele.techtalentblog.BlogPost;
 
 import org.springframework.data.repository.CrudRepository;
 

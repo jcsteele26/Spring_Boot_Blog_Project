@@ -1,4 +1,4 @@
-package com.steele.techtalentblog.Blog;
+package com.steele.techtalentblog.BlogPost;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -50,7 +50,11 @@ public class  BlogPost {
         this.blogEntry = blogEntry;
     }
 
-    
+    @Override
+    public String toString() {
+        return "BlogPost [author=" + author + ", blogEntry=" + blogEntry + ", id=" + id + ", title=" + title + "]";
+    }
 
     
+   
 }
