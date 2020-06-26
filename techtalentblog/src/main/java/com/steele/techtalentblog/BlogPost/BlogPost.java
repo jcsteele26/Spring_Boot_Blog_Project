@@ -26,6 +26,14 @@ public class  BlogPost {
         //Empty constructor for JPA
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }    
+
     public String getTitle() {
         return title;
     }
@@ -53,8 +61,6 @@ public class  BlogPost {
     @Override
     public String toString() {
         return "BlogPost [author=" + author + ", blogEntry=" + blogEntry + ", id=" + id + ", title=" + title + "]";
-    }
-
-    
+    }       
    
 }
